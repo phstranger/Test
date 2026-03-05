@@ -10,5 +10,4 @@
   <picture xsi:type="core:PictureRef">
     <picture>CommonPicture.ОперативныйУчет</picture>
   </picture>
-  <content>Catalog.Организации</content>
 </mdclass:Subsystem>

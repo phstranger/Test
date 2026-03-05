@@ -11,4 +11,15 @@
     <picture>CommonPicture.БухгалтерскийУчет</picture>
   </picture>
   <content>AccountingRegister.Хозрасчетный</content>
+  <content>Catalog.Номенклатура</content>
+  <content>Catalog.Валюты</content>
+  <content>Catalog.Организации</content>
+  <content>Catalog.Склады</content>
+  <content>Document.ПриходнаяНакладная</content>
+  <content>Document.РасходнаяНакладная</content>
+  <content>Document.Операция</content>
+  <content>Document.ПриходДенег</content>
+  <content>ChartOfCharacteristicTypes.ВидыСубконто</content>
+  <content>ChartOfAccounts.Управленческий</content>
+  <content>InformationRegister.КурсыВалют</content>
 </mdclass:Subsystem>

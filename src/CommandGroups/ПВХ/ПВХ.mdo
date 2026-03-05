@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommandGroup xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="87d025ac-fd02-4c11-b154-32e812b0fb05">
+  <name>ПВХ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Планы видов характеристик</value>
+  </synonym>
+  <representation>Auto</representation>
+</mdclass:CommandGroup>
