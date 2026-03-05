@@ -59,6 +59,12 @@
   <commonPictures>CommonPicture.Расчеты</commonPictures>
   <commonPictures>CommonPicture.БизнесПроцессы</commonPictures>
   <commonPictures>CommonPicture.Сервис</commonPictures>
+  <commandGroups>CommandGroup.Справочники</commandGroups>
+  <commandGroups>CommandGroup.Документы</commandGroups>
+  <commandGroups>CommandGroup.РС</commandGroups>
+  <commandGroups>CommandGroup.РБ</commandGroups>
+  <commandGroups>CommandGroup.ПС</commandGroups>
+  <commandGroups>CommandGroup.ПВХ</commandGroups>
   <catalogs>Catalog.Валюты</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
