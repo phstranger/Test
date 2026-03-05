@@ -94,7 +94,9 @@
   <createOnInput>DontUse</createOnInput>
   <fullTextSearch>Use</fullTextSearch>
   <type>
+    <types>CatalogRef.Контрагенты</types>
     <types>CatalogRef.Номенклатура</types>
+    <types>CatalogRef.Склады</types>
   </type>
   <foldersOnTop>true</foldersOnTop>
   <codeLength>9</codeLength>
@@ -110,6 +112,22 @@
       <code>000000001</code>
       <type>
         <types>CatalogRef.Номенклатура</types>
+      </type>
+    </items>
+    <items id="0811f1c8-a995-4587-8dd5-15d9b2275522">
+      <name>Контрагент</name>
+      <description>Контрагент</description>
+      <code>000000002</code>
+      <type>
+        <types>CatalogRef.Контрагенты</types>
+      </type>
+    </items>
+    <items id="bd8d9efc-c48b-47cd-b562-955f585ec451">
+      <name>Склад</name>
+      <description>Склад</description>
+      <code>000000003</code>
+      <type>
+        <types>CatalogRef.Склады</types>
       </type>
     </items>
   </predefined>

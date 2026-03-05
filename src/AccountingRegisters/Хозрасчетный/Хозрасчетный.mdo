@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccountingRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="15a69edd-335a-45b9-af6f-fffe1f9e67ca">
+  <producedTypes>
+    <selectionType typeId="bb2b4b44-5bc2-44dc-bf6f-d4e2fd90b031" valueTypeId="25bc8124-6216-4548-9018-10bb0089bf20"/>
+    <listType typeId="a4cde2ec-43af-4f44-9c08-fd01c3d8af1f" valueTypeId="2ac50ce7-517a-427c-87c8-6d5868ca7728"/>
+    <managerType typeId="dbd30082-640b-47b7-a7bf-78083060032d" valueTypeId="f0014cde-62c9-49a7-882e-37a60819acdf"/>
+    <recordSetType typeId="471be024-fa83-4319-aa0b-96340e2f0e10" valueTypeId="42396fc4-488c-4e74-8c27-96092602c49a"/>
+    <recordKeyType typeId="fba9fcbe-f00c-44f7-be45-ca1be346be32" valueTypeId="1630eee4-f853-4111-a611-79e65fc30648"/>
+    <recordType typeId="cc4579b6-8da0-42fe-a528-134f91634aec" valueTypeId="51c1de68-122b-4d98-bb24-63ba0687df3f"/>
+    <extDimensionsType typeId="2ac9bb45-f311-4569-8a80-932e61e99f93" valueTypeId="d4213197-8e07-4226-bfbd-a29e85e53de2"/>
+  </producedTypes>
+  <name>Хозрасчетный</name>
+  <synonym>
+    <key>ru</key>
+    <value>Хозрасчетный</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <chartOfAccounts>ChartOfAccounts.Управленческий</chartOfAccounts>
+  <correspondence>true</correspondence>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <dimensions uuid="ec0dc6e1-a97c-4642-ba5d-3dc662e538c4">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <balance>true</balance>
+  </dimensions>
+  <dimensions uuid="7ff88d1a-3ba2-4d18-a988-21265ba9cd37">
+    <name>Валюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <accountingFlag>ChartOfAccounts.Управленческий.AccountingFlag.Валютный</accountingFlag>
+  </dimensions>
+  <resources uuid="bccde017-a6f9-485b-a3ec-102130051b6e">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <accountingFlag>ChartOfAccounts.Управленческий.AccountingFlag.Количественный</accountingFlag>
+  </resources>
+  <resources uuid="191e90df-0f78-40e2-a290-12514e3eddf8">
+    <name>СуммаРуб</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма Руб</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>12</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <balance>true</balance>
+    <extDimensionAccountingFlag>ChartOfAccounts.Управленческий.ExtDimensionAccountingFlag.Суммовой</extDimensionAccountingFlag>
+  </resources>
+  <resources uuid="db7f4b77-2281-4d5d-a607-550448b15e41">
+    <name>СуммаВал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма Вал</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>12</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <accountingFlag>ChartOfAccounts.Управленческий.AccountingFlag.Валютный</accountingFlag>
+  </resources>
+</mdclass:AccountingRegister>
