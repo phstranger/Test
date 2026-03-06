@@ -82,6 +82,7 @@
   <documents>Document.НачислениеЗарплаты</documents>
   <documents>Document.Операция</documents>
   <documents>Document.ПриходДенег</documents>
+  <documents>Document.Инвентаризация</documents>
   <enums>Enum.УчетнаяПолитика</enums>
   <enums>Enum.ВидыНоменклатуры</enums>
   <dataProcessors>DataProcessor.КонсольЗапросов</dataProcessors>
