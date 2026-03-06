@@ -73,6 +73,7 @@
   <catalogs>Catalog.Подразделения</catalogs>
   <catalogs>Catalog.Организации</catalogs>
   <catalogs>Catalog.Склады</catalogs>
+  <catalogs>Catalog.ОсновныеСредства</catalogs>
   <documents>Document.ПриходнаяНакладная</documents>
   <documents>Document.РасходнаяНакладная</documents>
   <documents>Document.НачислениеЗарплаты</documents>
