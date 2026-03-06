@@ -68,6 +68,7 @@
   <constants>Constant.ОсновнаяОрганизация</constants>
   <constants>Constant.ТекущийПользователь</constants>
   <constants>Constant.ОсновнаяВалюта</constants>
+  <constants>Constant.КонстантаАндрея</constants>
   <catalogs>Catalog.Валюты</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
