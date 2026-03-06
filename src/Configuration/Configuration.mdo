@@ -65,6 +65,7 @@
   <commandGroups>CommandGroup.РБ</commandGroups>
   <commandGroups>CommandGroup.ПС</commandGroups>
   <commandGroups>CommandGroup.ПВХ</commandGroups>
+  <constants>Constant.ОсновнаяОрганизация</constants>
   <catalogs>Catalog.Валюты</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
