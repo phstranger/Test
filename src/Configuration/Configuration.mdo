@@ -66,6 +66,7 @@
   <commandGroups>CommandGroup.ПС</commandGroups>
   <commandGroups>CommandGroup.ПВХ</commandGroups>
   <constants>Constant.ОсновнаяОрганизация</constants>
+  <constants>Constant.ТекущийПользователь</constants>
   <catalogs>Catalog.Валюты</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
