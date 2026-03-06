@@ -5,16 +5,13 @@
     <valueManagerType typeId="568b4ae5-f771-4289-bf56-e4766ca4e646" valueTypeId="78efcdb7-ac79-4ba8-86cb-c5ac804283ab"/>
     <valueKeyType typeId="2d7b210d-8627-4b72-8918-b712ae4d0e30" valueTypeId="a6b44f48-fade-4b16-b40f-38368eae22ec"/>
   </producedTypes>
-  <name>Тестовая</name>
+  <name>ОсновнаяВалюта</name>
   <synonym>
     <key>ru</key>
-    <value>Тестовая</value>
+    <value>Основная валюта</value>
   </synonym>
   <type>
-    <types>String</types>
-    <stringQualifiers>
-      <length>10</length>
-    </stringQualifiers>
+    <types>CatalogRef.Валюты</types>
   </type>
   <useStandardCommands>true</useStandardCommands>
   <minValue xsi:type="core:UndefinedValue"/>

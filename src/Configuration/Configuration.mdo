@@ -67,7 +67,7 @@
   <commandGroups>CommandGroup.ПВХ</commandGroups>
   <constants>Constant.ОсновнаяОрганизация</constants>
   <constants>Constant.ТекущийПользователь</constants>
-  <constants>Constant.Тестовая</constants>
+  <constants>Constant.ОсновнаяВалюта</constants>
   <catalogs>Catalog.Валюты</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
