@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0b55fb3f-1997-455f-92d4-c21a72969539">
+  <producedTypes>
+    <objectType typeId="a90d499a-943f-45cc-ae51-719aba0e0997" valueTypeId="abff49b3-0164-4175-85c4-c8eaa324ac0e"/>
+    <refType typeId="ebc6a63d-2afc-41ba-b7b0-958698a71fb8" valueTypeId="dea9f98e-0410-4830-8ad2-bae09e4e74bf"/>
+    <selectionType typeId="feb4d574-89ad-4342-964f-101e4b77efea" valueTypeId="e5215dec-5d98-4032-9412-ad98cbbe6e34"/>
+    <listType typeId="40912a4e-048e-4835-8f25-7a169eae0d23" valueTypeId="51015555-61b2-447b-8e59-35f250e93e1b"/>
+    <managerType typeId="ab3166b7-12b3-4f4f-b268-d69586226089" valueTypeId="219c9dbc-4b06-4564-a572-31af28058ff5"/>
+  </producedTypes>
+  <name>ПараметрыУчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Параметры учета</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ПараметрыУчета.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ПараметрыУчета.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
