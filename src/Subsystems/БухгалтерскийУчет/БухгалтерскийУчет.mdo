@@ -22,4 +22,5 @@
   <content>ChartOfCharacteristicTypes.ВидыСубконто</content>
   <content>ChartOfAccounts.Управленческий</content>
   <content>InformationRegister.КурсыВалют</content>
+  <content>Catalog.Контрагенты</content>
 </mdclass:Subsystem>
