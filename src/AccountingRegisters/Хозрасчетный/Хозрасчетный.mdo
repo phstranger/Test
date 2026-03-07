@@ -62,7 +62,9 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
+    <balance>true</balance>
     <accountingFlag>ChartOfAccounts.Управленческий.AccountingFlag.Количественный</accountingFlag>
+    <extDimensionAccountingFlag>ChartOfAccounts.Управленческий.ExtDimensionAccountingFlag.Суммовой</extDimensionAccountingFlag>
   </resources>
   <resources uuid="191e90df-0f78-40e2-a290-12514e3eddf8">
     <name>СуммаРуб</name>
