@@ -65,10 +65,6 @@
   <commandGroups>CommandGroup.РБ</commandGroups>
   <commandGroups>CommandGroup.ПС</commandGroups>
   <commandGroups>CommandGroup.ПВХ</commandGroups>
-  <constants>Constant.ОсновнаяОрганизация</constants>
-  <constants>Constant.ТекущийПользователь</constants>
-  <constants>Constant.ОсновнаяВалюта</constants>
-  <constants>Constant.КонстантаАндрея</constants>
   <catalogs>Catalog.Валюты</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
@@ -76,14 +72,11 @@
   <catalogs>Catalog.Подразделения</catalogs>
   <catalogs>Catalog.Организации</catalogs>
   <catalogs>Catalog.Склады</catalogs>
-  <catalogs>Catalog.ОсновныеСредства</catalogs>
-  <catalogs>Catalog.ПараметрыУчета</catalogs>
   <documents>Document.ПриходнаяНакладная</documents>
   <documents>Document.РасходнаяНакладная</documents>
   <documents>Document.НачислениеЗарплаты</documents>
   <documents>Document.Операция</documents>
   <documents>Document.ПриходДенег</documents>
-  <documents>Document.Инвентаризация</documents>
   <enums>Enum.УчетнаяПолитика</enums>
   <enums>Enum.ВидыНоменклатуры</enums>
   <dataProcessors>DataProcessor.КонсольЗапросов</dataProcessors>
